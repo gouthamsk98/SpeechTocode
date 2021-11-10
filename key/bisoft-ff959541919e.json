@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bisoft",
+  "private_key_id": "ff959541919e769abfafd87ab3df648a01af215d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCicylW4FM84v2f\nHPoMryAS2NCfF+Y/oJLS2ym+WdRoI9SpnZEMv7+g3jQk8dugwU5adZmXa/F3wZ3D\nBWhAd6uSpeQTkTILdZF1LqaomPwXTH6rSQd2G3/WTTz20f4g4PgMAhGX3IiKXjuc\nIsoVBgXChL+jnKe075nFFMBxAvY/CGc78s8VVPg0mJPGtJ2AZRFCtNeLa9li5LpG\ny+sGasv0wpkLzT6H4sSHe6SvFAfYjbw5/uZ2HYa8aHDWguOcrSKIw+AOmpSz8v/p\n0M3+9PFRQQp+dzpG19srdVk/HW1YWRkoKjparWYCrMVMKWfH+Kggkm7xsbPfzq/P\n6XJHq98fAgMBAAECggEAEfDW/sW9MPW+sy0KPo60DkYiBYKoW/GPauMSdqJ0GguO\n/SvY151w++1eY+V5by+6HV/B1okbfLGGNgIUXpOjgAl7KWAOigPHdzdvkiInK9Q3\nubynKszkWZYOfBHQAkXmOb6cE8yiyxPs0Gm/2KzhbkymijAPDiVXXakqNwZFN3Zj\nCnJ9rgiUMAV0hZZljDLZyXKmom+YJ+9I6IYrufS0xtyeEPgUXx+Vl34x6YiOHSil\nDvJIKmDENLTti2fAlGKZf8ssUxnoRzDZfMyXHQsKJP5qgG9K+Qu285eN8EEczchQ\n8TKKjb8MCc+pJNMmkWtb9GwvOk61HHILCsLinfkRBQKBgQDgOHwsuIx+E07+wj91\n8Hrem71F4B/3Spii14RHaDbdxgY/1PEtPT7ygEixdMSxd73QB4AW/qIkW0W6CZBs\nGDJxxLUCBGX/Xvm3ThGH2Bv1rRMDRLGtzhLr8X5Ja8mjZZE9i6n4wHSOcW/vkAby\nz0PoLaFR/gxspn0vjpMQGV1JpQKBgQC5eWoS0EqZq50AANvT9+lHXMaCIgM7Bm0D\ntgc6Wm/YJpY18RZ2cRUbnK9QNmialkOskeAaRJrlTqZzkBI/QFDFCtgs+zHOIFVP\nLQ4QKTxLYZIT1ZghoyvBGXFDV6M9Kzt9u9hUaLBpOw1k2NywJf/hJrNSoyiDtOIC\nn4GFa4aCcwKBgCdDPNtH5bIeB3Ms6JfqaFmaw+X8fRx8f4XkX1FxuknTZzy+OQ1G\n8ELem9wXKmo5IY/QAGoGZLYhFXCiRBvpkMvDOj8ELigtpWSn0wIKobq/d9jWqpZY\nw491VjvdGA34txoj3rukV8SpsIQuoEjcanO5qcoFxn8wGDO/r5jeGCvRAoGBAK3B\n/krT0h+286WuKEOjjGsrklkVrjsc4QJKBOl5EjDIrY6pZubdN+4fUuptnn+8aHgC\nTZWuUgKjNTMsdLvG8CQ47Z7uUZGPHvzG89bWGsNwDB8CyrwwlmwX/tEdCDPlDZ3U\nXm1til97UCf7NnzbjKWM0RCJBAqnadkVP40T1/bbAoGBAI8q+Xlvmjb7eOTrzHVQ\n8iN5XP8Z2ndEs716ezhwgdPOFhwQH/uapjnnmsW4po8krqJWfVzEOvxdd8cySLFt\npFk4eUjM5GLRyD4dQXeTHMGewxUe1R7KeCS1DJxLdOOCgCu2j8jbwA4rGHetAf5X\nykv/FT5snmhJB7dzlsZzgSoQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "bisoft@bisoft.iam.gserviceaccount.com",
+  "client_id": "115589027494735756140",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bisoft%40bisoft.iam.gserviceaccount.com"
+}
