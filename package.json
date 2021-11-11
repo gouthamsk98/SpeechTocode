@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon -L ./bin/www"
   },
   "dependencies": {
     "@google-cloud/speech": "^4.9.0",
