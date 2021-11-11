@@ -2,6 +2,7 @@
     const express = require('express')
     const router =  express.Router()
     const speech = require('@google-cloud/speech');
+    const url = require('url');
     const { createWriteStream } = require("fs");
     const fs = require('fs')
     const {Storage} =require('@google-cloud/storage');
@@ -26,30 +27,31 @@
       
      const filesBucket = gc.bucket('bisoft')
      //upload method 1
-    // async function uploadBucket(data){
-    //   await new Promise(res =>
-    //     fs.createReadStream('./public/sample6.mp3')
-    //       .pipe(
-    //         filesBucket.file('sample6.mp3').createWriteStream({
-    //           resumable: false,
-    //           gzip: true,
+    async function uploadBucket(data){
+      await new Promise(res =>
+        
+        fs.createReadStream('./public/sample5.mp3')
+          .pipe(
+            filesBucket.file('sample5.mp3').createWriteStream({
+              resumable: false,
+              gzip: true,
               
-    //         })
-    //       )
-    //       .on("finish", res)
-    //   )
-    // }
+            })
+          )
+          .on("finish", res)
+      )
+    }
     //upload method 2
     const bucketname = 'bisoft';
     const filename = 'audio';
     async function upbuck(){
-      const data ='https://it.wisc.edu/wp-content/uploads/Google-Cloud-Platform-900x400-1.jpg'
+      const data ='https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/06/13/909277-ima-pop.jpg'
       const audio = {
         uri: data,
       };
-      const res = await gc.bucket(bucketname).upload('https://it.wisc.edu/wp-content/uploads/Google-Cloud-Platform-900x400-1.jpg' ,{
+      const res = await gc.bucket(bucketname).upload(data,{
         destination: filename
-      });
+      })
     // `mediaLink` is the URL for the raw contents of the file.
     // const url = res[0].metadata.mediaLink;
 
@@ -62,8 +64,9 @@
     // pkg.name;
     }
 
+    //uploadBucket()
     
-        
+      //upbuck();  
 
 
 
@@ -78,7 +81,7 @@
     // .on('error', function(err) {console.log(err)})
     // .on('finish', res);
    //speech rec function 
-    async function quickstart() {
+    async function quickstart(data) {
       // The path to the remote LINEAR16 file
       const gcsUri = 'gs://bisoft/sample1.mp3';
 
@@ -133,13 +136,14 @@ router.post("/", function(req, res){
   
    
    console.log("this url is "+req.body.url)
-   console.log(typeof req.body.url)
+   console.log(typeof req.body.blob)
+   //let data = new File(req.body.blob,'audio',{type:'webm'})
    
    //uploadBucket(req.body.url);
   
    
 })
-upbuck();
+//upbuck();
    
 module.exports = router
 
