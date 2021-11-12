@@ -15,23 +15,27 @@ setTimeout(function() {
 
   // let readMe = fs.readFileSync('./geek.txt','utf8')
   // console.log(readMe) 
- // fs.writeFileSync('./geekme.txt',readMe)
+ 
   
  // console.log(`write me= ${writeMe}`) 
  console.log(readMe)
 router.get('/', function (req, res, next){
-  // res.send("1")
+  
    if( readMe.search("Hardware")!=-1)
        id='2'
    if( readMe.search("wait")!=-1||readMe.search("delay")!=-1)
        id='1'
-   if( readMe.search("speak_componet3")!=-1)
-       id='0'
+   if( readMe.search("component")!=-1)
+       id='3'
    if( readMe.search("speak_componet4")!=-1)
        id='0'
    if( readMe.search("speak_componet4")!=-1)
        id='1'
+    if(readMe==='')
+        id=-1
    res.send(id)
+   readMe=''
+   fs.writeFileSync('./geek.txt',readMe)
   
 })
 }, delayInMilliseconds);

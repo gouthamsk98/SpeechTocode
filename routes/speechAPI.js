@@ -1,6 +1,8 @@
 
     const express = require('express')
     const router =  express.Router()
+    // const os = require('os')
+    // os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\goutham\Downloads\bisoft-ff959541919e.json"
     const speech = require('@google-cloud/speech');
     const url = require('url');
     const { createWriteStream } = require("fs");
@@ -112,7 +114,7 @@
        
     
     }
-    quickstart();
+   // quickstart();
     
     
 
