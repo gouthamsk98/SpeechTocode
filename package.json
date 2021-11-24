@@ -6,18 +6,30 @@
     "start": "nodemon -L ./bin/www"
   },
   "dependencies": {
+    "@google-cloud/dialogflow": "^4.5.0",
     "@google-cloud/speech": "^4.9.0",
     "@google-cloud/storage": "^5.15.6",
     "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "connect-busboy": "^0.0.2",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
+    "dialogflow": "^1.2.0",
     "express": "~4.16.1",
+    "fs": "^0.0.1-security",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "node-mic-record": "^0.0.1",
     "p5": "^1.4.0",
-    "speakable": "^0.4.0"
+    "path": "^0.12.7",
+    "pb-util": "^1.0.2",
+    "promisfy": "^1.2.0",
+    "promisify": "^0.0.3",
+    "speakable": "^0.4.0",
+    "stream": "^0.0.2",
+    "util": "^0.12.4",
+    "uuid": "^8.3.2"
   }
 }

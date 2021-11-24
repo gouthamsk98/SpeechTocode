@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "microphonetest1",
+  "private_key_id": "9f8d4a251c6f33943fbcfb4c3a3f2f33285a72df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtOYwllQN+ELbN\nmHO46DDOUG/Uy3R/VHIPQZZ9Pdm59le6CbQdjJeq17sFI6rH0lD5K+ZhMLHXACIi\n/y9J/sjZJ/KyVjEWyPew+RvPxN6O0JrFniTtWpf66wxXCQ8i99sElw6dSa77WO4b\nCXeehD5H+y7sh1FpUkcKol/C7wQU4UDp3c8B13u12lePn5y2FgpDIHCPsuhgoNl1\nynnCxMCZm3VM7f2/dzzFDdXlUJpr9KwcXlWbZY+NXF+0WflGCGlvIJbeqztoU0fw\ngev/KYVhzijFL1S14YKxF0uQYny24JSjTzpD4LzYlIfUN+Ucszx8TLULwtf/UTvq\nB9nmHlwpAgMBAAECggEAG8htVzDDfuJw42BGfTt2anzBtvxLyslRQuum1p8HLvmY\n/+xjAFNGlx7jLtOV5lcv6Ar3uBJej6iEkR7jJ4fPEG9FEH/c/zXL7k1B/eyqMnc4\nP6ZZ71y2oAa3c7UvAZGFxgJxVF5XS5ZrmBgIYLr+nz5k/AhHETCiVs0MtV/vBGcJ\nu7oc8ltNA8snyI29WeXW+1sxGTj2k2ZaZ3cbTYmr/iTFUiDIgE7lGalGnH22Up0n\nS6mkwxqTkrpXt0wRHj4fdtrg+GNJMDlvxI1hXtqYM6e6ANKPvYXhQofowNQzbUE2\nhOFidaXVsn5xSHydAVZOW3p/xpSnZka83GWh1d6/hQKBgQDf+AFY3AhGn1xHrjE5\nJss03S+9fLY5ZRJ1Ff6Z19nUDZajDScewCMVmfs6ZOo+bRS+baaCvrogdtSbZjrb\nm7wqj7I85o4rdQrRilAuq3tXjiz2V8NLrYZ57rLbCxRvOL6S19pQadovNtWFHktk\niokOyff2+5kjRCzqMKSgdtzflQKBgQDF/7FAc7oLz2cNCDWswtEDdezKqfenL7Oi\nrBmSg68jX81g2Wq7xyzPWW9nrIwdKhADYxwhiMoUiQr3wep5lDn5cyWoDOsjmrzo\ny1MBC8LnVOBmavLLluCW4NHSjJ/oxEPtOYyQ4fCZ4vDQzA2A1X+UhaAF8D9h3YWB\nAw4cUwt1RQKBgQC32fgRH55TiuHPnbied6/7104nOEbF2qhKISH82+neXsE3W8av\nQX4Lb3mBt/FqCVUr9Qro7PQRTjq8zjCmsbLHJWpk/8XY+p1E4Uts5Cu99eIG3ohc\niTeIxF9h3DiMDIK0PCjkNeB7PYINYo71G5vi3fyFbIeLIZ3VKNUbPDeX+QKBgHtg\n94zYEEintulSAlBjHWdwplsrSp0thlyJrW21DP+YBRyinnXgiTWz303VIYJS4aOa\nsL7cxD/DncgBWCDmkrG0ZPSxCB0poSnW+SQfthX8t9BaOG1Q2SZrdZQj+MlM857x\nS3xErm7WEYWqgYeUgmmEUtEggf5z0WsxAiv4O52ZAoGBAMT0BfHqtbEIaOdtlRhf\nxBx0cGBpj2LNl1jj9hjfU+0T25HgGxjIWCbhtzjCwMV3o3tD9XDwC+ki7KE8Clbm\nj+nGgGPKuxcETSUm63otBCnv7wrXgB9ThCOTYXSjV6FxGx3skWSUaOcLpXAWxtnl\nd5VIMjkevlnl1XRQllk4cS5c\n-----END PRIVATE KEY-----\n",
+  "client_email": "speech-detect@microphonetest1.iam.gserviceaccount.com",
+  "client_id": "110159102822490531146",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-detect%40microphonetest1.iam.gserviceaccount.com"
+}
