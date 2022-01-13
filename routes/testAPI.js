@@ -76,25 +76,68 @@
   
 // })
 // }, delayInMilliseconds);
-const Path = require("path")
-const dotenv =  require("dotenv")
-require("dotenv").config();
+
 //import { pipeline, Transform } from "stream";
 const {Transform, pipeline} = require('stream');
 //import busboy from "connect-busboy";
 const busboy =require("connect-busboy");
 //import util from "promisfy"
-const util = require("util")
 //import Dialogflow from "@google-cloud/dialogflow"
 const Dialogflow = require("@google-cloud/dialogflow")
 const fs = require('fs');
 const { v4: uuid } = require('uuid');
-
+let message
 const express = require('express')
 const router =  express.Router()
-router.get('/', function (req, res, next){
-  res.send('wait 10 ms 0 sec 12 m 4 h ')
+let send
+let {PythonShell} = require('python-shell') 
+// PythonShell.run("app.py",null,(err,result)=>{
+//   console.log(result,"result=======================> ")
+// })
+
+// router.post('/', function (req, res, next){
+//   message = req.body;
+//   send=message.a
+//   console.log(message.a)
+//   console.log("speak again....")
+//   send = message.a
+// })
+
+// console.log(send,"message =======>")
+
+  
+//PythonShell.run("app.py")
+
+router.post('/', function (req, res, next){
+  message = req.body;
+  send=message.a
+  console.log(message.a)
+  console.log("speak again....")
+  send = message.a
+  //PythonShell.run("app.py")
+  res.send("hello")
 })
+ // send='1'
+router.get('/', function (req, res, next){
+  // setTimeout( ()=>{
+  // PythonShell.run("app.py",null,(err,result)=>{
+  //   console.log(result[1],"result=======================> ")
+  //   console.log(typeof result[1],"result=======================> ")
+  // })
+  // },5000)
+  console.log(send,"u fool =__>>>>>>____>>>>>")
+  res.send(send)
+  send=''
+
+  
+})
+
+// Data which will write in a file.
+
+  
+// Write data in 'Output.txt' .
+
+
 // router.use(
 //   busboy({
 //     immediate: true,

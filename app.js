@@ -9,6 +9,7 @@ const cors = require('cors');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const testAPIRouter = require('./routes/testAPI')
+const dialogflowAPIRouter = require('./routes/dialogflowAPI')
 //const speechAPI = require('./routes/speechAPI')
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/testAPI',testAPIRouter)
+app.use('/dialogflowAPI',dialogflowAPIRouter)
 //app.use('/speechAPI',speechAPI)
 
 // catch 404 and forward to error handler
@@ -43,5 +45,15 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+let options = {
+  pythonPath: 'C:\\python27\\python',
+};
+// let {PythonShell} = require('python-shell')
+// PythonShell.run("app.py",options,(err,results)=>{
+//   console.log(results)
+//   console.log("python finished")
+// })
 
 module.exports = app;
+
+
